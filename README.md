@@ -15,7 +15,7 @@ repositories {
 }
 
 dependencies {
-    compile "com.github.droidpl:android-json-viewer:{{version}}"
+    compile "com.github.droidpl:android-json-viewer:1.0"
 }
 ```
 
@@ -23,7 +23,7 @@ It is pretty easy to use and allows the navigation on nested objects and arrays.
 The way to use it:
 
 ```java
-JSONObject json = new JS"{'myProperty': 'myValue'}";
+JSONObject json = new JSONObject("{'myProperty': 'myValue'})";
 JSONViewerActivity.startActivity(mContext, json);
 ```
 
