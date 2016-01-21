@@ -7,7 +7,7 @@ This project contains an activity that is included directly to your project to d
 some json and navigate over it.
 
 Add the following dependency that is available in maven and jcenter:
-```
+```gradle
 repositories {
     //Ensure you have one of the following sources
     jcenter()
